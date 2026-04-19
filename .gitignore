@@ -1,0 +1,119 @@
+# ----------------------------------------------------------------------
+# Python / virtual‑env / package artefacts
+.venv/
+
+# ----------------------------------------------------------------------
+# Byte‑compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Wheels
+*.whl
+
+# Virtual environment (if you create one inside the repo)
+venv/
+.venv/
+env/
+.ENV/
+env.bak/
+.virtualenv/
+.env/
+# Conda environment files
+conda-meta/
+conda-env.yml
+
+# ----------------------------------------------------------------------
+# IDE / editor / OS specific files
+# ----------------------------------------------------------------------
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / PyDev
+.project
+.pydevproject
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ----------------------------------------------------------------------
+# Data & model artefacts (large files you don’t want in Git)
+# ----------------------------------------------------------------------
+# Raw TMDB CSVs (keep them out of version control – they’re > 30 MB each)
+data/*.csv
+data/*.json
+data/*.zip
+
+# Trained artefacts (model, vectorizer, etc.)
+artifacts/
+*.pkl
+*.joblib
+*.sav
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# ----------------------------------------------------------------------
+# Streamlit cache / temporary files
+# ----------------------------------------------------------------------
+.streamlit/
+.streamlit/*
+
+# FastAPI / uvicorn log files (if you ever create them)
+*.log
+
+# ----------------------------------------------------------------------
+# Miscellaneous temporary / backup files
+# ----------------------------------------------------------------------
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# ----------------------------------------------------------------------
+# End of .gitignore
+# ----------------------------------------------------------------------

@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Machine‑learning utilities
+scikit-learn>=1.5.0
+
+# Text processing
+spacy>=3.7.0
+
+# Helpers
+tqdm>=4.65.0
+joblib>=1.4.0
+streamlit>=1.38
